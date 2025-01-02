@@ -7,7 +7,7 @@ This project demonstrates how to fine-tune the BanglaBERT model for Parts of Spe
 This repository contains:
 1. **Data Preprocessing**: Load, clean, and tokenize the raw dataset.
 2. **Model Development**: Fine-tuning three pre-trained models for the POS tagging task:
-   - **ShahajBERT**  
+   - **SagorBERT**  
    - **BanglaBERTT5**  
    - **csebuetnlp BanglaBERT** 
 3. **Model Evaluation**: Evaluate the model on various metrics (Accuracy, Precision, Recall, F1 Score).
@@ -26,7 +26,7 @@ Ensure you have the following installed:
 
 ## 🤖 Models Used
 
-1. **ShahajBERT**:
+1. **SagorBERT**:
 General-purpose Bangla BERT model.
 Fine-tuned for POS tagging.
 2. **BanglaBERTT5**:
@@ -40,7 +40,7 @@ Demonstrates the best performance due to pre-training on a large Bangla corpus.
 
 | Model                 | Accuracy | Precision | Recall | F1 Score |
 |-----------------------|----------|-----------|--------|----------|
-| **ShahajBERT**        | 0.6465   | 0.6440    | 0.6465 | 0.6333   |
+| **SagorBERT**        | 0.6596   | 0.6547    | 0.6596 | 0.6552   |
 | **BanglaBERTT5**      | 0.6768   | 0.6518    | 0.6768 | 0.6600   |
-| **csebuetnlp BanglaBERT** | 0.7623   | 0.7528    | 0.7623 | 0.7528   |
+| **csebuetnlp BanglaBERT** | 0.7690   | 0.7481    | 0.7690 | 0.7523   |
 
